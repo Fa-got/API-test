@@ -1,0 +1,27 @@
+{
+	"presets": [
+		["bbt", {
+			"targets": {
+				"browsers": ["last 2 versions"]
+			},
+			"roots": [
+				{
+					"rootPathPrefix": "~", "rootPathSuffix": "source/server/js"
+				},
+				{
+					"rootPathPrefix": "!", "rootPathSuffix": "source/control-panel/js"
+				},
+				{
+					"rootPathPrefix": "%", "rootPathSuffix": "source/touch-screen/js"
+				},
+				{
+					"rootPathPrefix": "@", "rootPathSuffix": "source/data"
+				},
+				{
+					"rootPathPrefix": "#", "rootPathSuffix": "source/common/js"
+				}
+			],
+			"react": true
+		}]
+	]
+}
